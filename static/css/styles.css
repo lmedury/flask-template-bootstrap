@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+}
+
+nav {
+    background-color: #03244d; /* Set background color of the navbar */
+    margin: 0; /* Remove any margin */
+    padding: 10; /* Remove any padding */
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 2%;
+}
+
+nav h1 {
+    margin: 0 auto; /* Center the h1 horizontally */
+    padding: 10px; /* Add padding to the header */
+    color: white; /* Set text color to white */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox layout */
+    margin-left: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing between navbar items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white; /* Change color of navbar links */
+    padding: 5px 10px; /* Adjust padding of navbar links */
+}
